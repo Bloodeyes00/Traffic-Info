@@ -1,0 +1,15 @@
+.Admintext{
+    margin-top          : 10px;
+    margin-bottom       : 10px;
+    font-size           :40px;
+}
+.container-fluid-admin{
+    background-image    : url(../../images/background.jpg) ;
+    background-repeat   : no-repeat;
+    background-size     : cover;
+    height              : 80vh;
+    width               : 100%;
+    padding             : 15px;
+    color               : #2C2E43 !important;
+    border-top          : 1px solid;
+}

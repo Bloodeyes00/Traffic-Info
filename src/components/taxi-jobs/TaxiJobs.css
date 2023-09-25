@@ -1,0 +1,296 @@
+.container-taxijobs{
+    background-color: rgb(235, 232, 232);
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-taxi{
+    background-color: rgb(255, 255, 255);
+    height: 90vh;
+    width: 100%;
+    
+}
+
+.DropDownButton {
+    margin: 50px 50px;
+    font-Size: 1.125rem;
+    width: 320px;
+    height: 60px;
+    display: flex;
+    align-Items: center;
+    justify-Content: space-between;
+    border: 2px solid #007bff;
+    border-Radius: 10px;
+    background-Color: white;
+    cursor: pointer;
+    padding: 0px 20px;
+
+  }
+
+  .inputRoot {
+    color: inherit;
+    width: 100%;
+  
+}
+
+  .search {
+    position: relative;
+    /* border-Radius: theme shape border Radius; */
+    margin-Right: 20px;
+    margin-Left: 0;
+    width: 100%;
+  }
+
+  .searchIcon {
+    padding: 0, 2;
+    height: 100%;
+    position: absolute;
+    pointer-Events: none;
+    display: flex;
+    align-Items: center;
+    justify-Content: center
+  }
+  .searchBarContainer {
+    min-Width: inherit;
+    display: flex;
+    justify-Content: space-evenly;
+    cursor: default;
+    border: black 2px solid;
+    
+  }
+
+  .menuDivider {
+    margin: 0, 20px;
+  }
+
+.addcmpny{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 200px;
+    }
+
+.workas{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: -10px;
+}
+.btnsearch{
+}
+
+.rowbutton{
+
+    display: flex;
+    justify-content: center;
+}
+.imgtxii{
+    height: 70px;
+    width: 70px;
+    border: none;
+    margin-top: 0px; 
+    /* margin-left: -20px; */
+}
+.row-taxijobs{
+    display: flex;
+}
+
+.imgcol{
+    display: flex;
+    justify-content: center;
+}
+.btadd{
+    background-color: #13ad2d;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    height: 40px;
+}
+
+.profision{
+display: flex;
+justify-content: end;
+align-items: end;
+flex-direction: column;
+margin-right: 20px;
+}
+
+.profision-input{ 
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 5px;
+    width: 200px;
+
+}
+.textproinput{
+    text-align: start;
+    margin-right: 50px;
+    font-family: 'Lucida Sans',;
+}
+
+.work{
+    display: flex;
+    
+}
+
+.selectws{
+    width                   : 100%;
+    margin-left             : 0px;
+    border-radius           : 40px;
+}
+
+
+.btntaxi{
+    display: flex;
+    justify-content: center;
+}
+.btnstaxi{
+    background-color: rgb(23, 129, 216);
+    border: none;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px 0px rgb(73, 73, 73);
+}
+.btnstaxi:hover{
+    background-color: rgb(112, 189, 252);
+    border: none;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px 0px rgb(73, 73, 73);
+}
+.row-taxidetails{
+    border: 1px solid rgb(228 226 226);
+    height: 470px;
+    width: 92%;
+    background-color: #fafafa;
+    margin-top: -50px;
+}
+.textarea{
+    width: 148%;
+    height: 100px;
+    border: 1px solid rgb(39, 39, 39);
+    outline: none;
+    
+}
+p{
+    font-size: 18px;
+}
+
+.row-dt{
+    display: flex;
+}
+
+.cmpnyname{
+    width: 80%;
+    border: 1px solid rgb(39, 39, 39);
+    height: 30px;
+}
+.row-useredit{
+    display: flex;
+}
+
+.inputsss{
+    border: 1px solid rgb(39, 39, 39);
+    outline: none;
+
+}
+
+h6{
+    font-size: 15px;
+}
+
+@media screen and (max-width: 580px) {
+    .inputsss{
+        border: 1px solid rgb(39, 39, 39);
+        height: 20px;
+        width: 126px;
+        font-size: 10px;
+    
+    }
+    h6{
+        font-size: 12px;
+    }
+
+}
+
+
+@media screen and (max-width: 390px) {
+    .inputsss{
+        border: 1px solid rgb(39, 39, 39);
+        height: 20px;
+        width: 126px;
+        font-size: 10px;
+    }
+    h6{
+        font-size: 10px;
+    }
+  
+    .imgtxii{
+        height: 70px;
+        width: 70px;
+        border: none;
+        margin-left: -20px;
+        margin-top: 4px;
+    }
+}
+
+.btngiver{
+    height: 40px;
+    border: none;
+    border-width: 1px 1px 1px 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    background-color: white;
+}
+
+.btngiver:hover{
+    height: 42px;
+    border: none;
+    border-width: 1px 1px 1px 1px solid;
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    background-color: white;
+}
+
+.btngiver1{
+    height: 40px;
+    border: none;
+    border-width: 1px 1px 1px 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    background-color: white;
+}
+.btngiver:hover{
+    height: 42px;
+    border: none;
+    border-width: 1px 1px 1px 1px solid;
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    background-color: white;
+}
+
+
+.btnssgiver{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.container-taxijobseeker12{
+    background-color: white;
+}
+
+.container-jobseeker12{
+    background-color: white;
+}
+

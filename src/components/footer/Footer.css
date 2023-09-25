@@ -1,0 +1,145 @@
+.container-fluid-footer{
+    height                  : 10%;
+    width                   : 100%;
+    position                : fixed;
+    bottom                  : 0;
+    margin-left             : -18px
+}
+
+.row-footer{
+    height                  : 10%;
+    width                   : 106%;
+    display                 : flex;
+    justify-content         : center;
+    align-items             : center;
+    position                : fixed;
+    background-color        : #f8f9fa;
+
+    
+}
+
+.col-a{
+    height                  : 100%;
+    width                   : 26%;
+    justify-content         : center;
+    align-items             : center;
+    text-align              : center;
+    padding                 : 10px;
+    margin-left             : -10px;
+}
+
+.col-a:hover{
+    height                  : 100%;
+    width                   : 26%;
+    color                   : rgb(68, 135, 235);
+    justify-content         : center;
+    align-items             : center;
+    text-align              : center;
+    padding                 : 10px;
+}
+
+.col-b{
+    height                  : 100%;
+    width                   : 26%;
+    justify-content         : center;
+    align-items             : center;
+    text-align              : center;
+    padding                 : 0px;
+    margin-top              : 30px;
+    font-size               : 12px
+}
+
+.col-b:hover{
+    height                  : 100%;
+    width                   : 26%;
+    color                   : rgb(68, 135, 235);
+    justify-content         : center;
+    align-items             : center;
+    text-align              : center;
+    padding                 : 0px;
+    margin-top              : 30px;
+    font-size               : 12px
+}
+
+.col-c{
+    height                  : 100%;
+    width                   : 26%;
+    justify-content         : center;
+    align-items             : center;
+    text-align              : center;
+    padding                 : 0px;
+    margin-top              : 30px;
+    font-size               : 12px
+}
+.col-c:hover{
+    height                  : 100%;
+    color                   : rgb(68, 135, 235);
+    width                   : 26%;
+    justify-content         : center;
+    align-items             : center;
+    text-align              : center;
+    padding                 : 0px;
+    margin-top              : 30px;
+    font-size               : 12px
+}
+
+.col-d{
+    height                  : 100%;
+    width                   : 26%;
+    justify-content         : center;
+    align-items             : center;
+    text-align              : center;
+    padding                 : 0px;
+    margin-top              : 30px;
+    font-size               : 12px
+}
+
+.col-d:hover{
+    height                  : 100%;
+    width                   : 26%;
+    color                   : rgb(68, 135, 235);
+    justify-content         : center;
+    align-items             : center;
+    text-align              : center;
+    padding                 : 0px;
+    margin-top              : 30px;
+    font-size               : 12px
+}
+
+.sidebaricon{
+    font-size               : 30px;
+    height                  : 40px;
+    width                   : 40px;
+}
+
+
+.sidebaricon:hover{
+    color                   : rgb(68, 135, 235);;
+    font-size               : 30px;
+    height                  : 40px;
+    width                   : 40px;
+}
+
+
+.counters{
+    width   	            : 20px;
+    height                  : 20px;
+    background-color        : red;
+    color                   : white;
+    border-radius           : 50%;
+    padding                 : 5px;
+    font-size               : 12px;
+    margin-left             : 13%;
+    margin-top              : -50px;
+    display                 : flex;
+    align-items             : center;
+    justify-content         : center;
+    position                : absolute;
+}
+
+.jobimags{
+    border: none;
+    border-radius: 0px;
+    height: 34px;
+    width: 34px;
+}

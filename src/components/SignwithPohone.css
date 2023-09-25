@@ -1,0 +1,21 @@
+.form-controlss{
+    background-image: url(../images/sweden.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left;
+    background-position-x: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 40px;
+
+   
+}
+.PhoneInputCountryIconImg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 1px;
+    margin-left: 0px;
+    margin-top: 0x;
+}

@@ -1,0 +1,69 @@
+.container-fluid-groupchat{
+    background-color            : #3b9bf7;
+    height                      : 100%;
+
+}
+    
+ 
+    .header{
+        text-align              : center;
+        padding                 : 20px;
+    border-bottom-right-radius  : 30px ;
+    border-bottom-left-radius   : 30px;
+    border-top                  : 1px solid;
+        
+    }
+    .col-8{
+        margin-left             : 0px;
+    }
+
+    .btn{
+        height                  :40px;
+        width                   : 25%;
+        color                   :#2C2E43;
+        font-Family             :'Anton', sans-serif;
+        
+    }
+    .btn9{
+        height                  :"40px";
+        font-Size               :14px;
+        width                   : 30%;
+        font-Family             :'Anton', sans-serif;
+        padding                 : 3px;
+        margin                  : 3px;
+        background-color        : rgb(255, 255, 255);
+        border-radius           : 10px;
+        color                   : #aa6b3b;
+        font-size               : 13px;
+        border                  : 1px solid rgb(153, 150, 150);
+    }
+    
+   
+    .groups{
+        text-align              : left;
+    }
+    .btn{
+        padding                 : 3px;
+        margin                  : 3px;
+        background-color        : rgb(255, 255, 255);
+        border-radius           : 10px;
+        color                   : #aa6b3b;
+        font-size               : 15px;
+        border                  : 1px solid rgb(153, 150, 150);
+        
+        
+    }
+    .button{
+        display                 : flex;      
+    } 
+    .imges{
+        width                   : 50px;
+        height                  : 50px;
+    }
+    .hi{
+        display                 : flex;
+        background-color        : white;
+        border-radius           : 20px;
+        margin-right            : 20px;
+    }
+    

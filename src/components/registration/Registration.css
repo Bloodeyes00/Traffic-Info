@@ -1,0 +1,37 @@
+.Data{
+    color: #2C2E43;
+    background-image: url(../login/login.jpg);
+    background-repeat: no-repeat;
+    background: none;
+    background-size: 300px;
+    background-position: center;
+    box-shadow: rgb(3 3 3) 1px 2px 5px 0px;
+    border: 1px solid #ffffff;
+    margin-left: -3%;
+    border-radius: 30px;
+    flex-direction: column;
+    width: 105%;
+    height: 90%}
+.signup-in{
+    color: #0583d2; 
+    
+   
+}
+
+
+.signup-in:hover{
+    color: #3393ce; 
+    border: 1px solid #0583d2;
+    border-Width: 0px 0px 1px 0px
+}
+
+.Btn4{
+    border-Radius: 50px;
+    border: none;
+    background-Color: #FF0101; 
+    color: white; 
+    height: 40px; 
+    width: 105%;
+}
+
+

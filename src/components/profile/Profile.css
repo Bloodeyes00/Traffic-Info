@@ -1,0 +1,113 @@
+.Profile h1{
+    color                   : #2C2E43;
+    text-transform          : capitalize;
+    
+}
+.ProPic{
+    border-radius           : 40px;
+    font-size               : 60px;
+    size                    : 50px;
+   
+}
+
+.Profile{
+    /* background-color     :rgb(255, 255, 255); */
+    background-image        : url(../../images/background.jpg) ;
+    background-repeat       : no-repeat;
+    background-size         : cover;
+    width                   : 100vw;
+    height                  : 90vh;
+    margin-top              : 0%;
+    border-top              : 1px solid;
+   
+}
+
+.photoicon a{
+    font-size               : 25px;
+}
+.ProPic:hover{
+    border                  : solid rgb(255, 255, 255);
+}
+
+
+.input-profile{
+  
+    width                   :30%;
+    display                 :flex;
+    justify-Content         :center;
+    align-Items             :center;
+    border-Radius           :10px;
+    margin-Bottom           :5px;
+    text-Align              :center;
+    margin-Left             :0px;
+    background-image        : url('../../images/gallary.png');
+    background-position     : center;
+    background-repeat       : no-repeat;
+    
+}
+
+
+
+
+
+.addcmpny{
+    display                 : flex;
+}
+
+.selectws{
+    width                   : 100%;
+    margin-left             : 0px;
+    border-radius           : 40px;
+}
+
+
+
+.Datas{
+    color                   : #2C2E43;
+    background-image        : url(../login/login.jpg);
+    background-repeat       : no-repeat;
+    background              : none;
+    background-size         : 300px;
+    background-position     : center;
+    box-shadow              : rgb(3 3 3) 1px 2px 5px 0px;
+    border                  : 1px solid #ffffff;
+    margin-left             : 23%;
+    border-radius           : 30px;
+    flex-direction          : column;
+    width                   : 55%;
+    height                  : 70%;
+}
+
+
+.form-control{
+    border-radius           : 50px;
+    margin-top              : 6px;
+    border                  : none;
+}
+.form-control:focus{
+    border-top              : aliceblue !important;
+    border-right            : yellowgreen !important;
+    border-left             : aliceblue !important;
+    outline                 : none !important;
+    box-shadow              : none !important;
+}
+.Data .Button{
+    background-color        :#FF0101;
+    border                  : none;
+    justify-content         : center;
+    text-align              : center;
+    color                   : white;
+    width                   : 34%;
+}
+.Button:hover{
+    background-color        : #5d3db4be;
+}
+
+.Btn4{
+    border-Radius           : 50px;
+    border                  : none;
+    background-Color        : #FF0101;
+    color                   : white;
+    height                  : 30px; 
+    width                   : 104%; 
+}
